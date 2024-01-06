@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 150px;
+    margin: 0px 80px 0px 100px;
     padding: 40px 0;
 }
 .nav-fortfolio{
@@ -62,29 +62,88 @@ nav a:hover{
     background-color: #FFF8F3;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    background-image: url(/images/header_bg.png);
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+    /* position: absolute; */
 }
 .pera{
-    width: 500px;
+    width: 535px;
+    margin-top: -13px;
 }
 button{
     /* background: #FD6E0A; */
     border-radius: 5px;
-    border: 1px solid #FD6E0A;
+    outline: none;
+    border: none;
+    /* border: 1px solid #FD6E0A; */
     font-weight: 700;
     font-size: 20px;
     color:#FD6E0A;
     padding: 18px 35px;
     cursor: pointer;
-    /* width: 150px; */
+    box-shadow: 4px 4px 4px gray;
+    width: 150px;
+    margin-left: 9px;
+}
+.banner-content{
+    width: 450px;
+    margin-left: -30px;
 }
 .banner .btn{
-    margin-top: 13px;
+    margin-top: 17px;
+    box-shadow: 4px 4px 4px gray;
 }
 .banner .profile-pic{
     width: 430px;
     height: 500px;
     flex-shrink: 0;
+    margin-right: 60px;
+}
+/* .banner.web-develop-pic{
+    position:relative;
+    width: 400px;
+    height: 100px;
+    background-position: left;
+
+} */
+.banner-greeting{
+    font-size: 37px;
+    color: #474747;
+    margin-bottom: 0px;
+    text-shadow: 4px 4px 4px gray;
+}
+.banner-title{
+    font-size: 75px;
+    font-weight: 700;
+    margin-top: -10px;
+    text-shadow: 5px 5px 5px gray;
+}
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding:130px;
+    margin: 100px 250px;
+}
+.about-title{
+    color: #181818;
+text-align: center;
+/* font-family: Open Sans; */
+font-size: 35px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: normal; */
+}
+.about-pera{
+    color: #757575;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+/* font-style: normal; */
+font-weight: 400;
+line-height: 20px; /* 166.667% */
 }
