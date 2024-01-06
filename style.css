@@ -54,7 +54,11 @@ nav a:hover{
     color:#fff;
     padding: 18px 35px;
     cursor: pointer;
+    width: 200px;
 
+}
+.dj{
+    width: 200px;
 }
 /* header releted work */
 
@@ -166,7 +170,7 @@ main{
     height: 80px;
     text-align: center;
     margin-left: 30px;
-    padding: 10px 0 30px 30px;
+    padding: 10px 0 50px 30px;
 }
 .skill-container{
     display: flex;
@@ -214,8 +218,9 @@ line-height: 21px; /* 175% */
     color: #757575;
     font-size: 16px;
     font-weight: 400;
-    gap: 18px;
+    gap: 30px;
     justify-content: space-between;
+    
 
 }
 .resume-colum-title{
@@ -226,4 +231,21 @@ line-height: 21px; /* 175% */
 }
 .resume-institute{
     padding: 20px 0 30px 0;
+}
+.bt{
+    display: flex;
+    justify-content: center;
+}
+.btns{
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    color:#fff;
+    padding: 18px 35px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    margin-top: 35px;
 }
