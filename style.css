@@ -126,8 +126,8 @@ button{
 .about{
     border-radius: 10px;
     background: #FFF8F3;
-    padding:130px;
-    margin: 100px 250px;
+    padding:60px 80px;
+    margin: 90px 0px;
 }
 .about-title{
     color: #181818;
@@ -145,5 +145,15 @@ font-family: Open Sans;
 font-size: 18px;
 /* font-style: normal; */
 font-weight: 400;
-line-height: 20px; /* 166.667% */
+line-height: 30px; /* 166.667% */
+}
+main{
+    max-width: 850px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
 }
