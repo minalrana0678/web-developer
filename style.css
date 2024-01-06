@@ -1,13 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
+
+/* navigation releted  */
 
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 150px;
+    padding: 40px 0;
 }
 .nav-fortfolio{
     color: black;
@@ -47,4 +55,36 @@ nav a:hover{
     padding: 18px 35px;
     cursor: pointer;
 
+}
+/* header releted work */
+
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.pera{
+    width: 500px;
+}
+button{
+    /* background: #FD6E0A; */
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    color:#FD6E0A;
+    padding: 18px 35px;
+    cursor: pointer;
+    /* width: 150px; */
+}
+.banner .btn{
+    margin-top: 13px;
+}
+.banner .profile-pic{
+    width: 430px;
+    height: 500px;
+    flex-shrink: 0;
 }
