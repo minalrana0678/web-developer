@@ -70,7 +70,7 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url('../images/header_bg.png'), url('../images/developer.png' );
+    background-image: url('./images/header_bg.png'), url('./images/developer.png' );
     background-position: bottom right, top left ;
     background-repeat: no-repeat;
     background-size: contain;
