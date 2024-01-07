@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 80px 0px 100px;
+    margin: 0px 80px 0px 140px;
     padding: 40px 0;
 }
 .nav-fortfolio{
@@ -52,13 +52,13 @@ nav a:hover{
     font-weight: 700;
     font-size: 20px;
     color:#fff;
-    padding: 18px 35px;
+    padding: 20px 20px;
     cursor: pointer;
-    width: 200px;
+    width: 230px;
 
 }
 .dj{
-    width: 200px;
+    width: 180px;
 }
 /* header releted work */
 
@@ -70,9 +70,11 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(/images/header_bg.png);
-    background-position: bottom right ;
+    background-image: url('/images/header_bg.png'), url('/images/developer.png' );
+    background-position: bottom right, top left ;
     background-repeat: no-repeat;
+    background-size: contain;
+    /* padding-left: 0 0 0 10px; */
     /* position: absolute; */
 }
 .pera{
@@ -91,12 +93,12 @@ button{
     padding: 18px 35px;
     cursor: pointer;
     box-shadow: 4px 4px 4px gray;
-    width: 150px;
+    width: 180px;
     margin-left: 9px;
 }
 .banner-content{
     width: 450px;
-    margin-left: -30px;
+    margin-left: -20px;
 }
 .banner .btn{
     margin-top: 17px;
@@ -245,7 +247,7 @@ line-height: 21px; /* 175% */
     color:#fff;
     padding: 18px 35px;
     cursor: pointer;
-    width: 200px;
+    width: 220px;
     text-align: center;
     margin-top: 35px;
     margin-bottom: 90px;
@@ -291,7 +293,7 @@ textarea{
     font-weight: 700;
     font-size: 20px;
     color:#fff;
-    padding: 18px 35px;
+    padding: 18px 25px;
     cursor: pointer;
     width: 150px;
     text-align: center;
